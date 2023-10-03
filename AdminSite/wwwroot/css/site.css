@@ -11,8 +11,18 @@ hr {
     margin-bottom: 50px;
 }
 
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Maintenance */
+
 .maintenanceHR {
-    width: 250px;
+    width: 550px;
     margin: 30px;
 }
 
@@ -35,7 +45,73 @@ hr {
 
 
 
-.bigtext {
+.maintenanceBigtext {
+    font-size: 30px;
+    color: black;
+}
+
+.maintenanceDate {
+    font-size: 20px;
+}
+
+.maintenanceClock {
+    font-size: 20px;
+}
+
+
+/* News */
+.newsBigtext {
+    font-size: 30px;
+    color: black;
+}
+
+.newsBox {
+    flex: 1;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 2px solid black;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .newsBox:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+.newsHR {
+    width: 550px;
+    margin: 30px;
+}
+
+/* Open or Closed */
+
+.openTime {
+    flex: 1;
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 2px solid black;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .openTime:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+.openHR {
+    width: 550px;
+    margin: 30px;
+}
+
+.openBigtext {
     font-size: 30px;
     color: black;
 }
