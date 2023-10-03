@@ -10,3 +10,32 @@ hr {
     background: black;
     margin-bottom: 50px;
 }
+
+.maintenanceHR {
+    width: 250px;
+    margin: 30px;
+}
+
+.maintenanceBox {
+    flex: 1;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 2px solid black;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .maintenanceBox:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+
+
+.bigtext {
+    font-size: 30px;
+    color: black;
+}
