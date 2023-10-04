@@ -1,4 +1,42 @@
 ﻿@page
-@model AdminSite.Pages.AboutUsModel
+@model IndexModel
 @{
+    ViewData["TitleAbout"] = "Om - SFFP";
 }
+
+
+
+<div class="header">
+    <h1>Om Super Fun Fun Park</h1>
+</div>
+<hr />
+
+<div class="mainContainer">
+    @* Maintenance Box in the left side *@
+    <div class="leftBox">
+        <a class="leftBoxBigtext">Næste vedligeholdelse</a>
+        <hr class="leftBoxHR" />
+        <p class="leftBoxText">
+            Text here
+        </p>
+    </div>
+
+    @* News Box in the middle *@
+    <div class="middleBox">
+        <a class="middleBoxBigtext">Overskrift</a>
+        <hr class="middleBoxHR" />
+        <p class="middleBoxText">
+            Text here
+        </p>
+    </div>
+
+    @* Open or Closed Box in the right side *@
+    <div class="rightBox">
+        <a class="rightBoxBigtext">Overskrift</a>
+        <hr class="rightBoxHR" />
+        <p class="rightBoxText">
+            Text here
+        </p>
+    </div>
+</div>
+
