@@ -115,3 +115,10 @@ hr {
     font-size: 30px;
     color: black;
 }
+
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

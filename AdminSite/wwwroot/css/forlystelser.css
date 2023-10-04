@@ -1,0 +1,12 @@
+﻿.header h1 {
+    text-align: center;
+}
+
+hr {
+    top: 20px;
+    border: none;
+    height: 2px;
+    width: 1000px;
+    background: black;
+    margin-bottom: 50px;
+}
