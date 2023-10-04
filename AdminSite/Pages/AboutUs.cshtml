@@ -38,3 +38,12 @@
     </div>
 </div>
 
+<div id="curr_date">
+    <script>
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = new Date().toLocaleDateString('da-DK', options);
+        const correctedDate = formattedDate.replace(/\b\w/g, (c) => c.toUpperCase()); // Ændrer første bogstav i hver dag til stort bogstav
+        document.getElementById("curr_date").innerHTML = correctedDate;
+    </script>
+</div>
+
