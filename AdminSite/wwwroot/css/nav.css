@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkgray;
+    background-color: grey;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     border: 1px solid black;
@@ -28,7 +28,7 @@ li a, .dropbtn {
 }
 
         li a:hover, .dropdown:hover .dropbtn {
-            background-color: royalblue;
+            background-color: green;
             border: 1px solid black;
         }
 
@@ -40,7 +40,7 @@ li a, .dropbtn {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: darkgrey;
+    background-color: grey;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -55,7 +55,7 @@ li a, .dropbtn {
     }
 
         .dropdown-content a:hover {
-            background-color: royalblue;
+            background-color: green;
         }
 
 .dropdown:hover .dropdown-content {
@@ -76,7 +76,7 @@ li a, .dropbtn-language {
 }
 
     li a:hover, .language:hover .dropbtn-language {
-        background-color: royalblue;
+        background-color: green;
         border: 1px solid black;
     }
 
@@ -87,7 +87,7 @@ li.language {
 .language-content {
     display: none;
     position: absolute;
-    background-color: darkgrey;
+    background-color: grey;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -102,7 +102,7 @@ li.language {
     }
 
         .language-content a:hover {
-            background-color: royalblue;
+            background-color: green;
         }
 
 .language:hover .language-content {

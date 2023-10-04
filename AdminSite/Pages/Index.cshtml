@@ -7,14 +7,14 @@
 
 <div class="header">
     <h1>Super Fun Fun Park</h1>
-    <div id="curr_date">
+@*     <div id="curr_date">
         <script>
             const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
             const formattedDate = new Date().toLocaleDateString('da-DK', options);
             const correctedDate = formattedDate.replace(/\b\w/g, (c) => c.toUpperCase()); // Ændrer første bogstav i hver dag til stort bogstav
             document.getElementById("curr_date").innerHTML = correctedDate;
         </script>
-    </div>
+    </div> *@
 </div>
 <hr />
 
@@ -37,6 +37,14 @@
     @* Open or Closed Box in the right side *@
     <div class="openTime">
         <a class="openBigtext">Åbningstider</a>
+        <div id="curr_date">
+            <script>
+                const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                const formattedDate = new Date().toLocaleDateString('da-DK', options);
+                const correctedDate = formattedDate.replace(/\b\w/g, (c) => c.toUpperCase()); // Ændrer første bogstav i hver dag til stort bogstav
+                document.getElementById("curr_date").innerHTML = correctedDate;
+            </script>
+        </div>
         <hr class="openHR" />
         <p class="openingTime">Mandag     09:00 - 21:00<br />
             Tirsdag     09:00 - 21:00<br />
