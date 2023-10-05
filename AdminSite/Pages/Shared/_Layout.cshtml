@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/registrer.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/background.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/registrer.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/adminpanel.css" asp-append-version="true" />
     <link rel="icon" type="image/x-icon" href="~/favicon.ico">
 </head>
 <body>
@@ -22,6 +24,7 @@
             <ul>
                 <li><a asp-page="/Index">Hjem</a></li>
                 <li><a asp-page="/AboutUs">Om SFFP</a></li>
+                <li><a asp-page="/AdminPanel">Admin Panel</a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Information</a>
                     <div class="dropdown-content">
@@ -30,7 +33,7 @@
                     </div>
                 </li>
                 <li class="login">
-                    <a href="javascript:void(0)" class="dropbtn-login">Konto</a>
+                    <a href="javascript:void(0)" class="dropbtn-login">Login</a>
                     <div class="login-content">
                         <a asp-page="/Registrer">Registrer</a>
                         <a asp-page="/Login">Login</a>
