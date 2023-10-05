@@ -25,7 +25,6 @@ hr {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
 }
 
 /* Maintenance */
@@ -45,6 +44,7 @@ hr {
     text-align: center;
     border: 2px solid black;
     transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white;
 }
 
     .maintenanceBox:hover {
@@ -84,6 +84,7 @@ hr {
     text-align: center;
     border: 2px solid black;
     transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white;
 }
 
     .newsBox:hover {
@@ -107,6 +108,7 @@ hr {
     text-align: center;
     border: 2px solid black;
     transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white;
 }
 
     .openTime:hover {

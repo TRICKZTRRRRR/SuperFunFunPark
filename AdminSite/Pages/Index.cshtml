@@ -4,6 +4,7 @@
     ViewData["Title"] = "Hjem - SFFP";
 }
 
+<div id="bg"></div>
 
 <div class="header">
     <h1>Super Fun Fun Park</h1>
@@ -33,12 +34,13 @@
             <script>
                 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 const formattedDate = new Date().toLocaleDateString('da-DK', options);
-                const correctedDate = formattedDate.replace(/\b\w/g, (c) => c.toUpperCase()); // Ændrer første bogstav i hver dag til stort bogstav
+                const correctedDate = formattedDate.replace(/\b\w/g, (c) => c.toUpperCase());
                 document.getElementById("curr_date").innerHTML = correctedDate;
             </script>
         </div>
         <hr class="openHR" />
-        <p class="openingTime">Mandag     09:00 - 21:00<br />
+        <p class="openingTime">
+            Mandag     09:00 - 21:00<br />
             Tirsdag     09:00 - 21:00<br />
             Onsdag      09:00 - 21:00<br />
             Torsdag     09:00 - 21:00<br />
@@ -48,10 +50,4 @@
         </p>
     </div>
 </div>
-
-@* <br />
-<hr />
-<div class="footer">
-
-</div> *@
 

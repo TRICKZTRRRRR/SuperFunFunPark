@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="~/css/billetter.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/buttons.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/forlystelser.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/registrer.css" asp-append-version="true" />
     <link rel="icon" type="image/x-icon" href="~/favicon.ico">
 </head>
 <body>
@@ -24,6 +26,13 @@
                     <div class="dropdown-content">
                         <a asp-page="/Forlystelser">Forlystelser</a>
                         <a asp-page="/Køb-Billetter">Køb billetter</a>
+                    </div>
+                </li>
+                <li class="login">
+                    <a href="javascript:void(0)" class="dropbtn-login">Konto</a>
+                    <div class="login-content">
+                        <a asp-page="/Registrer">Registrer</a>
+                        <a asp-page="/Login">Login</a>
                     </div>
                 </li>
                 <li class="language">
@@ -48,7 +57,7 @@
     <br />
 
     <div class="footer">
-        <hr class="hrF"/>
+        <hr class="hrF" />
         <p>&copy; 2023 Super Fun Fun Park. Alle rettigheder forbeholdes.</p>
     </div>
 
