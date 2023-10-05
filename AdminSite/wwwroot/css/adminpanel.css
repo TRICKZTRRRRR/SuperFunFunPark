@@ -61,3 +61,15 @@
     font-size: 30px;
     color: black;
 }
+
+.priceBoxText {
+    font-size: 20px;
+}
+
+.workersBox {
+    height: 350px;
+}
+
+.ticketsBox {
+    height: 350px;
+}
